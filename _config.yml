@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ninazanarelli.github.io" # the base hostname & protocol for your site
 
 github_username: ninazanarelli
-phone_number: +393483615850
+phone_number: 5187728733
 
 # Build settings
 markdown: kramdown
