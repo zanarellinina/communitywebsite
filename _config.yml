@@ -1,12 +1,12 @@
 # Site settings
 title:
 email: snehita@thecollegecommunity.com
+email2: nina@thecollegecommunity.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://zanarellinina.github.io" # the base hostname & protocol for your site
 
 github_username: zanarellinina
-phone_number: nina@thecollegecommunity.com
 
 # Build settings
 markdown: kramdown
