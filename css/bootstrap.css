@@ -1568,8 +1568,8 @@ pre code {
   margin-left: auto;
 }
 .container2 {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   margin: auto;
   width: 50%;
 }
