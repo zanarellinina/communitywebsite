@@ -6568,28 +6568,34 @@ button.close {
 
 
 
-/* Add a black background color to the top navigation */
-.bottombar {
-  background-color: rgb(197, 194, 194);
+/* Place the navbar at the bottom of the page, and make it stick */
+.terms {
+  background-color: #333;
   overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
-.bottombar a {
+.terms a {
   float: left;
   display: block;
-  color: #443939;
+  color: #f2f2f2;
   text-align: center;
-  padding: 4px 6px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  border-bottom: 3px solid transparent;
 }
 
-.bottombar a:hover {
-  border-bottom: 3px solid red;
+/* Change the color of links on hover */
+.terms a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
-.bottombar a.active {
-  border-bottom: 3px solid red;
+/* Add a color to the active/current link */
+.terms a.active {
+  background-color: #4CAF50;
+  color: white;
 }
