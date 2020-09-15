@@ -1,6 +1,6 @@
 # Site settings
 title:
-email: snehita@thecollegecommunity.com
+email: team@thecollegecommunity.com
 email2: nina@thecollegecommunity.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
