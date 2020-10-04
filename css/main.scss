@@ -51,34 +51,25 @@ $theme-dark: #222;
 
 /* Style the links inside the navigation bar */
 .terms a {
-        float: left;
         display: block;
         color: #f2f2f2;
-        text-align: center;
         padding: 14px 16px;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 14px;
         border-bottom: 3px solid transparent;
 }
 
 .terms a:hover {
         border-bottom: 3px solid red;
 }
-
-.terms a.active {
-        border-bottom: 3px solid red;
-}       
-
-
-
       
-      .btn-store .btn-label, 
-      .btn-store .btn-caption {
+.btn-store .btn-label, 
+.btn-store .btn-caption {
         display: block;
         text-align: left;
         line-height: 1;
-      }
-      
-      .btn-store .btn-caption {
+}
+
+.btn-store .btn-caption {
         font-size: 24px;
-      }
+}
