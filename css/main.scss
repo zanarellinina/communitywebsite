@@ -73,3 +73,16 @@ $theme-dark: #222;
 .btn-store .btn-caption {
         font-size: 24px;
 }
+
+// Smaller download icons on mobile
+@media screen and (max-width: 768px) {
+        .btn-store .btn-label {
+                font-size: 14px;
+        }
+        .btn-store .btn-caption {
+                font-size: 18px;
+        }
+        .fa { 
+          font-size: 40px;
+        }
+}      
