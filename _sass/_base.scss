@@ -148,6 +148,14 @@ aside {
 }
 
 // Homepage Header
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
 
 header {
     position: relative;
@@ -155,7 +163,6 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../video/video_3.mp4');
     text-align: center;
     color: white;
     .header-content {
