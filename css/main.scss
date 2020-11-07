@@ -99,17 +99,28 @@ $theme-dark: #222;
         border: none;
         outline: none;
         transition: 0.4s;
-      }
+}
       
-      /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-      .active, .accordion:hover {
-        background-color: rgb(233, 232, 232);
-      }
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+background-color: rgb(233, 232, 232);
+}
       
-      /* Style the accordion panel. Note: hidden by default */
-      .panel {
-        padding: 0 18px;
-        background-color: white;
-        display: none;
-        overflow: hidden;
-      } 
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+}
+
+#background-video {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+        object-position: center;
+        object-fit: over;
+}
