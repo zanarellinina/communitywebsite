@@ -115,12 +115,17 @@ overflow: hidden;
 }
 
 #background-video {
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
         position: absolute;
-        bottom: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
         min-width: 100%;
         min-height: 100%;
+        width: auto;
+        height: auto;
         z-index: -1;
-        object-position: center;
-        object-fit: over;
 }
